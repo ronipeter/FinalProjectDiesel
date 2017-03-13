@@ -1,0 +1,70 @@
+/*NAV*/
+body {margin:0;}
+
+.topnav {
+  z-index: 5;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
+#photo {
+  margin-top: 30px;
+  margin-left: 100px;
+  background-image: url(photo2.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 30%;
+  float: left;
+  display: block;
+}
+
+p{
+  font-size: 50px;
+  position: absolute;
+  color: gray;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.content {
+ position: relative;
+ top: 30%;
+ z-index: 2;
+ margin: 0 auto;
+ max-width: 720px;
+ text-align: center;}
+
+ span{
+
+ display: inline-block;
+ margin: 0;
+ padding: 12px 48px;
+ color: #fff;
+ font-size: 22px;
+ text-decoration: none;
+ border: solid 4px #fff;}
+
+span: hover {
+ background-color:#FFF;
+ color: #000;
+}

@@ -1,0 +1,70 @@
+html, body{
+	height: 100%;
+	margin: auto;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.video{
+	color: black;
+	opacity: 0.5;
+	position: fixed;
+	top: 50%; left:50%;
+	z-index: 1;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%,-50%);
+}
+
+/* Definindo a altura do body e html */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	background-color: #000;
+}
+
+/* Estilo do .content onde está o conteúdo da página */
+.content {
+	position: relative;
+	top: 30%;
+	z-index: 2;
+	margin: 0 auto;
+	max-width: 720px;
+	text-align: center;
+}
+
+p {
+	font-size: 50px;
+	margin-bottom: 24px;
+	color: #EEE;
+	font-style: bold;
+}
+
+
+
+a {
+	display: inline-block;
+	margin: 0;
+	padding: 12px 48px;
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+	border: solid 4px #fff;
+}
+a:hover {
+	background-color:#FFF;
+	color: #000;
+}
